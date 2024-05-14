@@ -121,7 +121,7 @@ This project is licensed under the [MIT License](./LICENSE).
 
 # Contributors 🩷
 
-Thank you for contributing to our project! We appreciate your help in making  even better.
+Thank you for contributing to our project! We appreciate your help in making Spaceship-escort even better.
 
 <center>
 <a href="https://github.com/GameSphere-MultiPlayer/Spaceship-escort/graphs/contributors">
