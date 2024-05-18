@@ -19,6 +19,23 @@
   <img src="https://img.shields.io/github/last-commit/GameSphere-MultiPlayer/Spaceship-escort?style=for-the-badge" />
   </div>
 
+ # Tech Stack⚡
+<div>
+<a><img src="https://img.shields.io/badge/HTML-E34F26.svg?style=for-the-badge&logo=HTML&logoColor=white"></a>
+<a><img src="https://img.shields.io/badge/CSS-1572B6.svg?style=for-the-badge&logo=CSS&logoColor=black"></a>
+<a><img src="https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black"></a>
+<a><img src="https://img.shields.io/badge/BootStrap-E34F26.svg?style=for-the-badge&logo=BootStrap&logoColor=yellow"></a>
+<a><img src="https://img.shields.io/badge/jQuery-1572B6.svg?style=for-the-badge&logo=jQuery&logoColor=black"></a>
+</div>
+  
+# Snapshots of the Project 📷
+
+These are the screenshots of the project.
+
+![s1](https://github.com/d1vyadharsh1n1/Spaceship-escort/assets/146218077/d4f14578-d30b-4f4b-8de6-1a142fc8f239)
+![s2](https://github.com/d1vyadharsh1n1/Spaceship-escort/assets/146218077/91fb128e-b665-4195-a268-9d10654eeefd)
+
+
   # How to make a PR in a Project 🟢
 
 If you are interested to contribute in this project how to start contribute
@@ -71,7 +88,6 @@ To push your changes, run the following command in your terminal:
 
 9. Create a PR.
 
-__________________________________________________________________________________________________________________________________________________________________
 
 ## Alternatively Using GitHub Desktop
 
@@ -92,3 +108,25 @@ ________________________________________________________________________________
 8. Once you're satisfied with your pull request, click the "Create pull request" button to submit it.
 
 **Note:** In order to create a pull request, you must have a fork of the original repository in your GitHub account and you must have made the changes in that forked repository.
+
+# Code of Conduct 🤝
+
+Please note that this project is released with a [Code of Conduct](./CODE_OF_CONDUCT.md). By participating in this project you agree to abide by its terms.
+
+# License 📜
+
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+
+This project is licensed under the [MIT License](./LICENSE).
+
+# Contributors 🩷
+
+Thank you for contributing to our project! We appreciate your help in making Spaceship-escort even better.
+
+<center>
+<a href="https://github.com/GameSphere-MultiPlayer/Spaceship-escort/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=GameSphere-MultiPlayer/Spaceship-escort" />
+</a>
+</center>
+
+
