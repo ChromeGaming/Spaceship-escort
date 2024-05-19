@@ -8,6 +8,45 @@ body {
   margin: 0;
 }
 
+#bpTxt {
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  padding: 6px 20px;
+  font-size: 20px;
+  color: #d3fc6f;
+  font-weight: 500;
+  box-shadow: 0px 0px 10px 5px #86a145;
+  border-radius: 10px;
+  border: 3px solid #d3fc6f;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: relative;
+  transition: background-color 0.3s, color 0.3s, box-shadow 0.3s, transform 0.1s;
+}
+
+#bpTxt::after {
+  content: '\00bb';
+  position: absolute;
+  right: -30px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 24px;
+  color: #d3fc6f;
+  opacity: 0;
+  transition: right 0.3s ease, opacity 0.3s ease;
+}
+
+#bpTxt:hover::after {
+  right: 10px;
+  opacity: 1;
+}
+
+#bpTxt:active {
+  background-color: #4d6b23;
+  color: #ffffff;
+  box-shadow: 0px 0px 5px 2px #d3fc6f;
+  transform: scale(0.95);
+}
 .menuDivs {
   position: relative;
   line-height: 8px;
