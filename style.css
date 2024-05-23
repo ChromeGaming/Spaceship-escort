@@ -84,7 +84,7 @@ body {
   margin-top: 20px;
   text-align: center;
   font-family: arial;
-  font-size: min(10vw, 45px);
+  font-size: min(40vw, 80px);
   text-shadow: 0 0 20px white;
   background: linear-gradient(140deg, #27cfcc 33.5%, rgba(0, 0, 0, 0) 33%),
     linear-gradient(140deg, yellow 34%, #ff5454 34%);
@@ -96,6 +96,9 @@ body {
   animation: Gradient 5s ease infinite;
   -webkit-animation: Gradient 5s ease infinite;
   -moz-animation: Gradient 5s ease infinite;
+}
+#Gametitle{
+  font-size: 3rem;
 }
 
 @-webkit-keyframes Gradient {
