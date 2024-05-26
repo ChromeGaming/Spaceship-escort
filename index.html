@@ -287,6 +287,23 @@
 					<br /><br />
 				</div>
 
+				<div  id="home-button" class="HB"
+				onclick="localStorage.setItem('SpaceEscort13kbGame2', 1+' '+help);location.reload();">
+						<img style="height: 20px;" src="img\home-button-svgrepo-com.svg">
+						<div class="tooltip">
+							Home
+						</div>
+				</div>
+
+		<script>
+			const startMissionButton = document.getElementById('bpTxt');
+			const homeButton = document.getElementById('home-button');
+			homeButton.style.display = 'none';
+			startMissionButton.addEventListener('click', () => {
+  			homeButton.style.display = 'inline-block';
+		});
+		</script>
+
 				<div
 					id="helpD"
 					style="
