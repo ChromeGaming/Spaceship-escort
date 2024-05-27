@@ -109,3 +109,34 @@ body {
     background-position: 30% 50%;
   }
 }
+
+.HB{
+  text-align: center;
+  border-radius: 100%;
+  padding-top: 7px;
+  height: 30px;
+  width:35px;
+  background-color: rgba(0, 0, 0, 0);
+  cursor: pointer;
+  position: fixed;
+  z-index: 2000;
+  transition: background-color 0.2s;
+}
+.HB .tooltip{
+    opacity: 0;
+    color: azure;
+    white-space: nowrap;
+    pointer-events: none;
+    transition: opacity 0.2s;
+    font-family: 'Roboto',"Arial", sans-serif;
+    font-size: 0.8rem;
+    position: absolute;
+    top: 40px;
+  
+}
+.HB:hover .tooltip{
+  opacity: 0.7;
+}
+.HB:hover{
+  background-color: #333;
+}
