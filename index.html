@@ -461,13 +461,14 @@
 							font-size: 12px;
 							border-radius: 50px;
 							background-color: black;
+							cursor: pointer;
 						"
 					>
 						?
 					</div>
-
+					<!-- The below div changes include the Pause button padding to appear it as the original shape -->
 					<div
-						onclick="if(game_running){game_running=false;this.style.backgroundColor='orange';this.style.color='black';this.innerHTML='&#9654;';}else{game_running=true;this.style.backgroundColor='black';this.style.color='silver';this.innerHTML='&#9616;&#9616;';}"
+						onclick="if(game_running){game_running=false;this.style.backgroundColor='orange';this.style.color='black';this.style.paddingLeft = '5px';this.innerHTML='&#9654;';}else{game_running=true;this.style.backgroundColor='black';this.style.color='silver';this.style.paddingLeft = '2px';this.innerHTML='&#9616;&#9616;';}"
 						style="
 							position: absolute;
 							top: 5px;
@@ -480,6 +481,7 @@
 							font-size: 7px;
 							border-radius: 50px;
 							background-color: black;
+							cursor: pointer;
 						"
 						id="pause"
 					>
@@ -500,10 +502,28 @@
 							font-size: 13px;
 							border-radius: 50px;
 							background-color: black;
+							cursor: pointer;
 						"
+						id="setting"	
 					>
 						&#x2699;
 					</div>
+
+					<script>
+						//CHANGES : Help and setting button to be not visible at same moment!
+						const helpButton = document.getElementById('helpb');
+						const setting = document.getElementById('setting');
+
+						setting.addEventListener('click', () => {
+						helpD.style.display = 'none';
+						config.style.display = 'inline-block';
+						});
+
+						helpButton.addEventListener('click', () => {
+						helpD.style.display = 'inline-block';
+						config.style.display = 'none';
+						});
+				</script>
 
 					<div
 						style="

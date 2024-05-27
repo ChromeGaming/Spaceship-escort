@@ -140,3 +140,7 @@ body {
 .HB:hover{
   background-color: #333;
 }
+
+.menuShips{
+  cursor: pointer;
+}
