@@ -1045,9 +1045,6 @@ context.imageSmoothingEnabled = false;
 	}(this, this.document))
 	
 resize();	
-
-
-=======
 var sizeRatio = canvas.width / 100;
 
 var fps = 60,
@@ -1148,7 +1145,6 @@ function nextWave2() {
 var zzfxV = 0.5;
 var zzfx = null;
 
-let zzfxX, zzfxR;
 function play() {
 	if (zzfx == null) {
 		// ZzFXMicro - Zuper Zmall Zound Zynth - v1.1.7 ~ 884 bytes minified

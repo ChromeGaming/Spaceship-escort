@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>404:Page not found</title>
+    <title>404: Page not found</title>
     <link rel="icon" type="image/png" href="img/favicon-32x32.png">
 </head>
 <style>
-    body{
+    body {
         margin: 0;
         padding: 0;
         font-family: Arial, sans-serif;
@@ -18,28 +18,27 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        height: 90vh;
-        
+        height: 100vh;
     }
-    .pic{
-        width: 700px;
-        height: 700px;
+    .pic {
+        width: 400px;
+        height: 400px;
         animation: updown 2s ease-in-out infinite alternate;
     }
     @keyframes updown {
-        from{
+        from {
             transform: translateY(0);
         }
-        to{
+        to {
             transform: translateY(20px);
         }
     }
-    a{
+    a {
         text-decoration: none;
         color: #fff;
     }
-    .btn{
-        position: absolute;
+    .btn {
+        margin-top: 20px;
         padding: 10px 20px;
         background-color: #1d82d5;
         color: #fff;
@@ -47,15 +46,15 @@
         font-size: 20px;
         font-weight: bold;
         border: none;
-        top: 600px;
     }
     @media screen and (max-width: 600px) {
-        .pic{
-            width: 300px;
-            height: 300px;
+        .pic {
+            width: 200px;
+            height: 200px;
         }
-        .btn{
-            top: 400px;
+        .btn {
+            font-size: 16px;
+            padding: 8px 16px;
         }
     }
 </style>
