@@ -232,3 +232,9 @@ body {
 .menuShips{
   cursor: pointer;
 }
+
+#botonPlayInfo:hover{
+  background-color: #27cfcc;
+}
+
+
