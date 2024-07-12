@@ -2,6 +2,7 @@
 
 
 html, body {
+  font-family: 'Lucida Console';
 	user-select: none;
 	-webkit-print-color-adjust: exact; 
 	height: 100%;
